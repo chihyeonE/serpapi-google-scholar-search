@@ -1,8 +1,10 @@
 # serpapi-google-scholar-search
 Authorized Google Scholar Data Crawling with Serpapi
+
 구글 스칼라 API로 검색결과 csv로 저장해주는 파이썬 코드
 
 This Code has been tested on Conda Virtual Engine
+
 이 코드는 Conda 환경에서만 테스트되었습니다.
 
 # Initialize
@@ -41,6 +43,7 @@ params = {
 # Usage
 
 검색하고자 하는 키워드가
+
 "Grating Coupler" "Lithium Niobate" "x-cut" "uniform" 이라고 해보자.
 
 이 때, 이 키워드를 다음과 같이 변형시켜 인식할 수 있도록 한다. (띄어쓰기 -> + , " -> \")
@@ -54,5 +57,6 @@ params = {
 </pre>
 
 결과는 다음과 같이 Keyword.csv 형태로 제공되며 레포지토리에서 확인할 수 있다.
+
 데이터는 Citation 수 내림차순에 따라 정렬된다.
 
