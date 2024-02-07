@@ -44,7 +44,6 @@ params = {
 "Grating Coupler" "Lithium Niobate" "x-cut" "uniform" 이라고 해보자.
 
 이 때, 이 키워드를 다음과 같이 변형시켜 인식할 수 있도록 한다. (띄어쓰기 -> + , " -> \")
-\"grating+coupler\"+\"uniform\"+\"lithium+niobate\"+\"x-cut\"
 
 뒤에 숫자는 검색하고자 하는 페이지 수로, n개 페이지에 대한 검색은 n*10개의 결과를 얻을 수 있다.
 
