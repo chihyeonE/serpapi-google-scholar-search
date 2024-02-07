@@ -9,14 +9,11 @@ This Code has been tested on Conda Virtual Engine
 
 <pre>
         <code>
-                '''bash
 conda env create gs python
 conda activate gs
 conda install pip
 conda install pandas
 pip install serpapi
-'''
-
         </code>
 </pre>
 
@@ -31,14 +28,12 @@ SerpAPI는 월 100회의 무료 검색을 지원한다.
 
 <pre>
         <code>
-                '''python
 params = {
         "engine" : "google_scholar",
         "q" : keyword,
         "api_key" : "Your Private Key",
         "start" : n
     }
-'''
         </code>
 </pre>
 
@@ -55,10 +50,7 @@ params = {
 
 <pre>
         <code>
-                \'''bash 
   python sortgs_api.py \"grating+coupler\"+\"uniform\"+\"lithium+niobate\"+\"x-cut\" 12
-'''
-
         </code>
 </pre>
 
