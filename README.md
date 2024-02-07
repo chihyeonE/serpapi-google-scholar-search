@@ -1,5 +1,6 @@
 # serpapi-google-scholar-search
 Authorized Google Scholar Data Crawling with Serpapi
+구글 스칼라 API로 검색결과 csv로 저장해주는 파이썬 코드
 
 This Code has been tested on Conda Virtual Engine
 이 코드는 Conda 환경에서만 테스트되었습니다.
