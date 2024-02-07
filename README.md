@@ -11,8 +11,7 @@ This Code has been tested on Conda Virtual Engine
         <code>
 conda env create gs python
 conda activate gs
-conda install pip
-conda install pandas
+conda install pip pandas -c conda-forge
 pip install serpapi
         </code>
 </pre>
