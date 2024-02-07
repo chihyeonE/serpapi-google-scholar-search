@@ -7,14 +7,18 @@ This Code has been tested on Conda Virtual Engine
 # Initialize
 환경 만들기
 
-
-\'''bash
+<pre>
+        <code>
+                '''bash
 conda env create gs python
 conda activate gs
 conda install pip
 conda install pandas
 pip install serpapi
 '''
+
+        </code>
+</pre>
 
 
 구글 환경에서 검색 API를 공급받기 위해 SerpAPI 가입이 필요하다.
@@ -25,7 +29,9 @@ SerpAPI는 월 100회의 무료 검색을 지원한다.
 
 로그인을 진행하고, Your Private API Key를 복사하여 sortgs_api.py의 다음 param dictionary 내부의 "api_key"에 넣어준다. (line 74)
 
-\'''python
+<pre>
+        <code>
+                '''python
 params = {
         "engine" : "google_scholar",
         "q" : keyword,
@@ -33,6 +39,9 @@ params = {
         "start" : n
     }
 '''
+        </code>
+</pre>
+
 
 # Usage
 
@@ -44,8 +53,13 @@ params = {
 
 뒤에 숫자는 검색하고자 하는 페이지 수로, n개 페이지에 대한 검색은 n*10개의 결과를 얻을 수 있다.
 
-\'''bash 
+<pre>
+        <code>
+                \'''bash 
   python sortgs_api.py \"grating+coupler\"+\"uniform\"+\"lithium+niobate\"+\"x-cut\" 12
 '''
+
+        </code>
+</pre>
 
 결과는 다음과 같이 Keyword.csv 형태로 제공되며 레포지토리에서 확인할 수 있다.
