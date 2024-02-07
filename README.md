@@ -7,6 +7,8 @@ This Code has been tested on Conda Virtual Engine
 # Initialize
 환경 만들기
 
+<pre>
+<code>
 '''bash
 conda env create gs python
 conda activate gs
@@ -14,6 +16,8 @@ conda install pip
 conda install pandas
 pip install serpapi
 '''
+</code>
+</pre>
 
 구글 환경에서 검색 API를 공급받기 위해 SerpAPI 가입이 필요하다.
 
